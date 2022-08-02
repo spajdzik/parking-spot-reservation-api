@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41261f09-5988-48fa-bb09-85a61abaefac" name="Changes" comment="build: first commit">
-      <change afterPath="$PROJECT_DIR$/src/Controller/ParkingSpotController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ParkingSpotRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/parking-spot-reservation-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/parking-spot-reservation-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="41261f09-5988-48fa-bb09-85a61abaefac" name="Changes" comment="feat(parkingSpot): creating repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ParkingSpotController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ParkingSpotController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ParkingSpotRepository.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,17 +85,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/grzegorz/PhpstormProjects/parking-spot-reservation-api",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/grzegorz/PhpstormProjects/parking-spot-reservation-api&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -112,7 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659431589698</updated>
       <workItem from="1659431590924" duration="736000" />
-      <workItem from="1659432815392" duration="2920000" />
+      <workItem from="1659432815392" duration="3142000" />
+      <workItem from="1659443602654" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="build: first commit">
       <created>1659433419443</created>
@@ -121,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659433419443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat(parkingSpot): creating repository">
+      <created>1659436838081</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659436838081</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="build: first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: first commit" />
+    <MESSAGE value="feat(parkingSpot): creating repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(parkingSpot): creating repository" />
   </component>
 </project>

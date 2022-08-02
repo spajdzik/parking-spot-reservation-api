@@ -10,7 +10,7 @@ class ParkingSpotController extends AbstractController
 {
 
     public function __construct(
-        private ParkingSpotRepository $repository
+//        private ParkingSpotRepository $repository
     )
     {
     }
