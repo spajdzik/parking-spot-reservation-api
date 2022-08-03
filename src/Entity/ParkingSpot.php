@@ -24,8 +24,8 @@ class ParkingSpot
     #[ORM\Column(length: 255)]
     private ?string $garage = null;
 
-    #[ORM\Column(length: 255)]
-    private ?string $spot = null;
+    #[ORM\Column]
+    private ?int $spot = null;
 
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $nearestStaircase = null;
@@ -33,7 +33,7 @@ class ParkingSpot
     #[ORM\Column]
     private ?bool $available = null;
 
-    #[ORM\ManyToMany(targetEntity: ParkingSpot::class, mappedBy: 'parkingSpot')]
+    #[ORM\ManyToMany(targetEntity: User::class, mappedBy: 'user')]
     private Collection $owners;
 
     public function __construct()
@@ -82,12 +82,12 @@ class ParkingSpot
         return $this;
     }
 
-    public function getSpot(): ?string
+    public function getSpot(): ?int
     {
         return $this->spot;
     }
 
-    public function setSpot(string $spot): self
+    public function setSpot(int $spot): self
     {
         $this->spot = $spot;
 

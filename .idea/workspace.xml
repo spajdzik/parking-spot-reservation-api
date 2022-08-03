@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41261f09-5988-48fa-bb09-85a61abaefac" name="Changes" comment="feat(parkingSpot): creating repository">
+    <list default="true" id="41261f09-5988-48fa-bb09-85a61abaefac" name="Changes" comment="feat: adding entities ParkingSpot and User">
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ParkingSpotController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ParkingSpotController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ParkingSpotRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/ParkingSpot.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/ParkingSpot.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +112,8 @@
       <updated>1659431589698</updated>
       <workItem from="1659431590924" duration="736000" />
       <workItem from="1659432815392" duration="3142000" />
-      <workItem from="1659443602654" duration="726000" />
+      <workItem from="1659443602654" duration="2105000" />
+      <workItem from="1659505749132" duration="2267000" />
     </task>
     <task id="LOCAL-00001" summary="build: first commit">
       <created>1659433419443</created>
@@ -122,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659436838081</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: adding entities ParkingSpot and User">
+      <created>1659444648241</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659444648241</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="build: first commit" />
     <MESSAGE value="feat(parkingSpot): creating repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(parkingSpot): creating repository" />
+    <MESSAGE value="feat: adding entities ParkingSpot and User" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adding entities ParkingSpot and User" />
   </component>
 </project>
