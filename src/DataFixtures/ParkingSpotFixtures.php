@@ -54,7 +54,7 @@ class ParkingSpotFixtures extends Fixture
             $parkingSpot->setGarage($garage);
             $parkingSpot->setNearestStaircase($nearestStaircase);
 
-            $parkingSpot->setSpot(1);
+            $parkingSpot->setSpot($i);
             $parkingSpot->setCode($parkingSpot->getGarage() . '.' . $parkingSpot->getSpot());
 
             $this->manager->persist($parkingSpot);
