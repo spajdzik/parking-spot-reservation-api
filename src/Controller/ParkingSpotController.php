@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Annotation\Route;
 
-#[Route('/parking-spot', name: 'parking_spot')]
+#[Route('/parking-spot', name: 'app_parking_spot')]
 class ParkingSpotController extends AbstractController
 {
 

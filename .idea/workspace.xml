@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41261f09-5988-48fa-bb09-85a61abaefac" name="Changes" comment="feat(fixtures): adding parking spot fixtures">
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/lexik_jwt_authentication.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/parking-spot-reservation-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/parking-spot-reservation-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="41261f09-5988-48fa-bb09-85a61abaefac" name="Changes" comment="feat(authentication): adding jwt handling">
+      <change afterPath="$PROJECT_DIR$/src/Controller/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ParkingSpotController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ParkingSpotController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ParkingSpotFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ParkingSpotFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +137,7 @@
       <workItem from="1659505749132" duration="3243000" />
       <workItem from="1659529700531" duration="2926000" />
       <workItem from="1659593824212" duration="4574000" />
-      <workItem from="1659606917287" duration="5112000" />
+      <workItem from="1659606917287" duration="6620000" />
     </task>
     <task id="LOCAL-00001" summary="build: first commit">
       <created>1659433419443</created>
@@ -191,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659611034345</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(authentication): adding jwt handling">
+      <created>1659614937399</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659614937399</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +212,7 @@
     <MESSAGE value="feat(database): creating db" />
     <MESSAGE value="feat(exception): adding exception handling" />
     <MESSAGE value="feat(fixtures): adding parking spot fixtures" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(fixtures): adding parking spot fixtures" />
+    <MESSAGE value="feat(authentication): adding jwt handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(authentication): adding jwt handling" />
   </component>
 </project>
