@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41261f09-5988-48fa-bb09-85a61abaefac" name="Changes" comment="feat(database): creating db">
-      <change afterPath="$PROJECT_DIR$/src/EventListener/ExceptionListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ServiceException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ServiceExceptionData.php" afterDir="false" />
+    <list default="true" id="41261f09-5988-48fa-bb09-85a61abaefac" name="Changes" comment="feat(exception): adding exception handling">
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/ParkingSpotFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/parking-spot-reservation-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/parking-spot-reservation-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ParkingSpotController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ParkingSpotController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/ParkingSpot.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/ParkingSpot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +84,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/proxy-manager-bridge" />
       <path value="$PROJECT_DIR$/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
     </include_path>
   </component>
   <component name="ProjectId" id="2CnHmnHW2yDDX4YjIiRTuEYcwfu" />
@@ -119,7 +124,8 @@
       <workItem from="1659443602654" duration="2105000" />
       <workItem from="1659505749132" duration="3243000" />
       <workItem from="1659529700531" duration="2926000" />
-      <workItem from="1659593824212" duration="4186000" />
+      <workItem from="1659593824212" duration="4574000" />
+      <workItem from="1659606917287" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="build: first commit">
       <created>1659433419443</created>
@@ -149,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659527229847</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(exception): adding exception handling">
+      <created>1659601481444</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659601481444</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +184,7 @@
     <MESSAGE value="feat(parkingSpot): creating repository" />
     <MESSAGE value="feat: adding entities ParkingSpot and User" />
     <MESSAGE value="feat(database): creating db" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(database): creating db" />
+    <MESSAGE value="feat(exception): adding exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(exception): adding exception handling" />
   </component>
 </project>

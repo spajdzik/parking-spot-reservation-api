@@ -33,7 +33,7 @@ class ParkingSpot
     #[ORM\Column]
     private ?bool $available = null;
 
-    #[ORM\ManyToMany(targetEntity: User::class, mappedBy: 'user')]
+    #[ORM\ManyToMany(targetEntity: User::class, inversedBy: 'parkingSpots')]
     private Collection $owners;
 
     public function __construct()
@@ -119,7 +119,7 @@ class ParkingSpot
     }
 
     /**
-     * @return Collection<int, ParkingSpot>
+     * @return Collection<int, User>
      */
     public function getOwners(): Collection
     {
@@ -130,7 +130,6 @@ class ParkingSpot
     {
         if (!$this->owners->contains($owner)) {
             $this->owners->add($owner);
-            $owner->addParkingSpot($this);
         }
 
         return $this;
@@ -138,9 +137,7 @@ class ParkingSpot
 
     public function removeOwner(User $owner): self
     {
-        if ($this->owners->removeElement($owner)) {
-            $owner->removeParkingSpot($this);
-        }
+        $this->owners->removeElement($owner);
 
         return $this;
     }

@@ -19,7 +19,7 @@ class User
     #[ORM\Column(length: 255)]
     private ?string $email = null;
 
-    #[ORM\ManyToMany(targetEntity: ParkingSpot::class, mappedBy: 'owner')]
+    #[ORM\ManyToMany(targetEntity: ParkingSpot::class, mappedBy: 'owners')]
     private Collection $parkingSpots;
 
     public function __construct()
